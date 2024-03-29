@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gillian's GIPHY Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="functionality" href="package.json" />
+    <link rel="functionality" href="script.js"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <script src="main.js"></script> 
+  </head>
+  <body>
+    <!--menu icon-->
+    <div class="menu"></div>
+    <div class="menu"></div>
+    <div class="menu"></div> 
+      <!--HTML-->
+      <div class="topnav">
+        <a href="index.html" class="active">GIPHY Search API</a>
+        <!--Navigation Links-->
+        <div id="myLinks">
+        <a href="about.html">About</a>
+        <a href="search.html">Search</a>
+        <a href="contact.html">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <main class="body">
+        <h2>Want to find the one you're looking for?</h2>
+        <form autocomplete="off">
+          <label for="search">Search: </label>
+          <input id="search" type="search" />
+          <button id="btnSearch">Go</button>
+        </form>
+        <div class="out"></div>
+      </main>
+  </body>
+</html>

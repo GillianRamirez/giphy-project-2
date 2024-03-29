@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Gillian's GIPHY Project</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="functionality" href="package.json" />
+    <link rel="functionality" href="script.js"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    <script src="main.js"></script> 
+  </head>
+  <body>
+      <!--HTML-->
+      <div class="topnav">
+        <a href="index.html" class="active">GIPHY Search API</a>
+        <!--Navigation Links-->
+        <div id="myLinks">
+        <a href="about.html" class="section">About</a>
+        <a href="search.html" class="section">Search</a>
+        <a href="contact.html" class="section">Contact</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+
+      <div class="body">
+        <h2>Welcome!</h2>
+        <div style="width:37%;height:0;padding:15%;position:relative;">
+          <iframe src="https://giphy.com/embed/WS3i2y88foYpE584rI" width="50%" height="50%" style="position:absolute" frameBorder="0" class="giphy-embed"></iframe>
+        </div>
+        <p><a href="https://giphy.com/gifs/reaction-mood-WS3i2y88foYpE584rI"></a></p>
+        <p class="text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas,
+          consequuntur. Dolore assumenda similique vero pariatur iusto possimus
+          consequatur cupiditate alias ipsum, et animi esse asperiores magni optio
+          deserunt, commodi voluptate.
+        </p>
+        <div class="container">
+          <form autocomplete="off">
+          <label for="search">Search: </label>
+          <input id="search" type="search" />
+          <button id="btnSearch">Go</button>
+          </form>
+          <div class="out"></div>
+        </div>
+        
+  </body>
+</html>
